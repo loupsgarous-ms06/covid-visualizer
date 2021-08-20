@@ -22,7 +22,7 @@ def main():
     matplotlib.rcParams['font.sans-serif'] = ['Hiragino Maru Gothic Pro', 'Yu Gothic', 'Meirio', 'Takao', 'IPAexGothic', 'IPAPGothic', 'VL PGothic', 'Noto Sans CJK JP']
     # print(data)
     matplotlib.pyplot.plot(data)
-    matplotlib.view()
+    matplotlib.pyplot.show()
 
 if __name__ == "__main__":
     main()
