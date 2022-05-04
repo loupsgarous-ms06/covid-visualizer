@@ -1,6 +1,4 @@
 import pandas
-import matplotlib
-import matplotlib.pyplot
 
 # import enum
 
@@ -29,12 +27,10 @@ class mhlwCovidParser:
 
     def prefecture(self, pref):
         # if pref in self.pref_enum_list:
-        return self.data[[pref]]
+        return self.data[pref]
 
 if __name__ == "__main__":
     mcp = mhlwCovidParser()
     # data = mcp.daily("2021/08/31")
     # print(mcp.data)
-    print(mcp.prefecture("UNKO"))
-
-
+    print(mcp.prefecture("ALL"))
