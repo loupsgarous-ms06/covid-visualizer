@@ -1,6 +1,9 @@
+from email import parser
 import pandas
 import matplotlib
 import matplotlib.pyplot
+import mhlwcovidparser
+
 
 pcr_positive_daily:str = "https://www.mhlw.go.jp/content/pcr_positive_daily.csv"
 
